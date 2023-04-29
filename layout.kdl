@@ -1,0 +1,16 @@
+layout {
+    pane {
+      command "./750.sh"
+      args "edit"
+      size "90%"
+      borderless true
+      close_on_exit true
+    }
+    pane {
+      command "./750.sh"
+      args "watch"
+      size "10%"
+      borderless true
+      close_on_exit true
+    }
+}
